@@ -11,18 +11,19 @@ Step 1) Make an admin/staff user in the database, this can't be done via the web
 eg: (using REST API)
 
 ###
-
-POST http://localhost:3000/admin-api/staff 
-Content-Type: application/json
-
 {
-    "role":"staff",
-    "name":"Fenrir",
-    "staffId":"123123",
-    "email":"Fenrir123@gmail.com"
-}
 
-###
+    POST http://localhost:3000/admin-api/staff
+    Content-Type: application/json
+    
+    {
+        "role":"staff",
+        "name":"Fenrir",
+        "staffId":"123123",
+        "email":"Fenrir123@gmail.com"
+    }
+
+}
 
 Step 2)Make sure to populate the database as the admin using the website, as admin has the ability to add books in the Book Catalogue page
 
