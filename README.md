@@ -8,19 +8,17 @@ do note that you need to fill out the database to be able to use the application
 
 Step 1) Make an admin/staff user in the database, this can't be done via the website, but can be done either in the database or by using a REST api and using a backend route to do so. made this way for security purposes. MAKE SURE ROLL IS "staff" AND NOT ADMIN.
 
-eg:
+eg: (using REST API)
+
+**POST http://localhost:3000/admin-api/staff 
+Content-Type: application/json
 
 {
-  "_id": {
-    "$oid": "67bdfe38feec8fbc92f46d40"
-  },
-  "role": "staff",
-  "name": "Rohan Burden",
-  "staffId": "111",
-  "email": "example@gmail.com",
-  "isActive": true,
-  "__v": 0
-}
+    "role":"staff",
+    "name":"Fenrir",
+    "staffId":"123123",
+    "email":"Fenrir123@gmail.com"
+}**
 
 Step 2)Make sure to populate the database as the admin using the website, as admin has the ability to add books in the Book Catalogue page
 
