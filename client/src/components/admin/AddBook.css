@@ -1,0 +1,28 @@
+.container {
+    max-width: 600px;
+  }
+  
+  .form-card {
+    background-color: #ffffff;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .alert {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .form-control {
+    border-radius: 0.375rem;
+  }
+  
+  .form-check-input {
+    border-radius: 0.375rem;
+  }
+  

@@ -1,0 +1,53 @@
+.admin-profile {
+    background-color: #000000;
+    min-height: 100vh;
+    padding: 40px 0;
+  }
+  
+  .card {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+  }
+  
+  .card .btn {
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .card .btn:hover {
+    background-color: #0056b3;
+    color: white;
+  }
+  
+  .card .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .card .btn-outline-success:hover {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .card .btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .card .btn-outline-info:hover {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  @media (max-width: 767px) {
+    .card {
+      padding: 2rem;
+    }
+  }
+  .admin-profile {
+    width: 75%;
+    margin: 0 auto; 
+    background-color: #f4f7fa ;
+  }
+  

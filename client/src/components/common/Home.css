@@ -1,0 +1,68 @@
+
+.home-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+  }
+  .user-info-card {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .user-info-card p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+  }
+  
+  .user-info-card strong {
+    color: #343a40;
+  }
+
+  .btn-danger {
+    background-color: #dc3545;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.1rem;
+    width: 100%;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+
+  .error-message {
+    color: #ff4136;
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .loading-text {
+    font-size: 1.2rem;
+    color: #6c757d;
+    text-align: center;
+  }
+
+  @media (max-width: 576px) {
+    .home-container {
+      padding: 10px;
+    }
+  
+    .user-info-card {
+      padding: 15px;
+    }
+  
+    .btn-danger {
+      padding: 8px 15px;
+      font-size: 1rem;
+    }
+  }
+  
